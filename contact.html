@@ -48,23 +48,84 @@
         
         <!--Main Content-->
         <section id="main-content">
-            <form>
-                <section class="form-group">
-                    <label for="inputName">Name <i class="far fa-user"></i></label>
-                    <input type="text" class="form-control" name="inputName" placeholder="Name">
+
+            <!-- Button trigger message modal -->
+            <section class="form-group">
+                <button type="button" class="btn btn-secondary btn-block btn-lg page-button" data-toggle="modal" data-target="#messageModal">
+                    Send Message <i class="fas fa-envelope-open-text"></i>
+                </button>
+            </section>
+
+            <!-- Button trigger phone modal -->
+            <section class="form-group">
+                <button type="button" class="btn btn-secondary btn-block btn-lg page-button" data-toggle="modal" data-target="#phoneModal">
+                    Contact by Phone <i class="fas fa-mobile-alt"></i>
+                </button>
+            </section>
+            
+            <!-- Button redirect to Github -->
+            <section class="form-group">
+                <form action="https://github.com/mhans003" target="_blank">
+                    <button type="submit" class="btn btn-secondary btn-block btn-lg page-button">
+                        Visit Michael Hanson's Github <i class="fab fa-github"></i>
+                    </button>
+                </form>
+            </section>
+            
+            
+            
+            <!-- Message Modal -->
+            <section class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel" aria-hidden="true">
+                <section class="modal-dialog">
+                    <section class="modal-content">
+                        <section class="modal-header">
+                            <h5 class="modal-title" id="messageModalLabel">Send a Message to Michael Hanson</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </section>
+                        <section class="modal-body">
+                            <form>
+                                <section class="form-group">
+                                    <label for="inputName">Name <i class="far fa-user"></i></label>
+                                    <input type="text" class="form-control" name="inputName" placeholder="Name">
+                                </section>
+                                <section class="form-group">
+                                    <label for="inputEmail">Email <i class="fas fa-at"></i></label>
+                                    <input type="email" class="form-control" name="inputEmail" placeholder="Email">
+                                </section>
+                                <section class="form-group">
+                                    <label for="inputMessage">Message <i class="fas fa-pencil-alt"></i></label>
+                                    <br>
+                                    <textarea class="form-control" name="inputMessage" cols="20" rows="10" placeholder="Message"></textarea>
+                                </section>
+                                <section class="form-group">
+                                    <i>Recipient: michaeledwardhanson@gmail.com</i>
+                                    <button id="submit-button" type="submit" class="btn btn-secondary btn-block btn-lg page-button">Submit <i class="far fa-paper-plane"></i></button>
+                                </section>
+                            </form>
+                        </section>
+                    </section>
                 </section>
-                <section class="form-group">
-                    <label for="inputEmail">Email <i class="fas fa-at"></i></label>
-                    <input type="email" class="form-control" name="inputEmail" placeholder="Email">
+            </section>
+
+            <!-- Phone Modal -->
+            <section class="modal fade" id="phoneModal" tabindex="-1" aria-labelledby="phoneModalLabel" aria-hidden="true">
+                <section class="modal-dialog">
+                    <section class="modal-content">
+                        <section class="modal-header">
+                            <h5 class="modal-title" id="phoneModalLabel">Call or Text Michael Hanson</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </section>
+                        <section class="modal-body">
+                            <h1>(951) 834-8219</h1>
+                        </section>
+                    </section>
                 </section>
-                <section class="form-group">
-                    <label for="inputMessage">Message <i class="fas fa-pencil-alt"></i></label>
-                    <textarea class="form-control" name="inputMessage" cols="20" rows="10" placeholder="Message"></textarea>
-                </section>
-                <section class="form-group">
-                    <button id="submit-button" type="submit" class="btn btn-secondary btn-block btn-lg">Submit <i class="far fa-paper-plane"></i></button>
-                </section>
-            </form>
+            </section>
+
         </section>
 
     </section>

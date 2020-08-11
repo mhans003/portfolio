@@ -82,13 +82,13 @@ hr {
 
 /*Contact Styles*/
 
-#submit-button {
+.page-button {
     padding: 15px; 
     margin-top: 30px; 
     width: 100%; 
 }
 
-#submit-button:hover {
+.page-button:hover {
     background-color: #fff; 
     color: rgba(52,58,64,1.0); 
 }
