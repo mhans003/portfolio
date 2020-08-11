@@ -87,7 +87,6 @@ hr {
 .card-img-top {
     width: 100%;
     height: 100%; 
-
 }
 
 /*Contact Styles*/
@@ -96,6 +95,7 @@ hr {
     padding: 15px; 
     margin-top: 30px; 
     width: 100%; 
+    background-color: rgba(155,155,180,1.0);
 }
 
 .page-button:hover {
