@@ -75,6 +75,19 @@ hr {
     margin-bottom: 20px; 
 }
 
+/*Contact Styles*/
+
+#submit-button {
+    padding: 15px; 
+    margin-top: 30px; 
+    width: 100%; 
+}
+
+#submit-button:hover {
+    background-color: #fff; 
+    color: rgba(52,58,64,1.0); 
+}
+
 /*Footer Styles*/
 
 footer {
@@ -85,7 +98,7 @@ footer {
     line-height: 60px; 
 }
 
-i {
+a i {
     font-size: 1.5rem; 
     margin-right: 10px; 
 }
