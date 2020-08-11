@@ -39,7 +39,8 @@ body {
 
 #main {
     width: 90%; 
-    padding: 30px 50px 50px 50px; 
+    
+    padding: 30px 50px; 
     background-color: #fff; 
     margin-top: 5%; 
     margin-bottom: 10%;
@@ -63,6 +64,10 @@ hr {
 #biopic {
     height: relative; 
     width: 100%; 
+}
+
+.biobody {
+    text-indent: 40px; 
 }
 
 /*Portfolio Card Styles*/
