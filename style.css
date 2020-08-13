@@ -175,9 +175,10 @@ a i {
     }
 
     .navbar-toggler {
-        width: 100%; 
+        width: 97%; 
         margin-left: auto !important; 
         margin-right: auto !important; 
+        margin-bottom: 5px; 
     }
 
 }
