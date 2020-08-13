@@ -182,4 +182,12 @@ a i {
         font-size: 1.9rem;  
     }
 
+    h1 {
+        font-size: 1.5rem; 
+    }
+
+    .page-button {
+        font-size: 1rem; 
+    }
+
 }
