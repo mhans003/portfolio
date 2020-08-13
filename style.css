@@ -70,6 +70,7 @@ hr {
 #biopic {
     height: relative; 
     width: 100%; 
+    border-radius: 10px; 
 }
 
 .biobody {
