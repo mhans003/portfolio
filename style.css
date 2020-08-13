@@ -90,6 +90,14 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.hr-light {
+    display: inline-block; 
+    width: 15%; 
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-left: 30px; 
+    margin-right: 30px; 
+}
+
 #biopic {
     height: relative; 
     width: 100%; 
@@ -165,6 +173,21 @@ a i {
 }
 
 /*Adjust and center navbar items on mobile*/
+
+@media screen and (max-width: 767px) {
+
+    .dropdown-text {
+        position: relative; 
+        bottom: 10px; 
+    }
+
+    .current-tab {
+        top: 10px; 
+    }
+
+}
+
+
 @media screen and (max-width: 470px) {
 
     .navbar-brand {
