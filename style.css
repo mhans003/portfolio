@@ -157,6 +157,7 @@ a i {
     color: rgba(223,247,255,1.0); 
 }
 
+/*Adjust and center navbar items on mobile*/
 @media screen and (max-width: 470px) {
 
     .navbar-brand {
@@ -170,6 +171,15 @@ a i {
         width: 100%; 
         margin-left: auto !important; 
         margin-right: auto !important; 
+    }
+
+}
+
+/*Keep navbar-brand (title) from overflowing smaller mobile screens*/
+@media screen and (max-width: 400px) {
+
+    .navbar-brand {
+        font-size: 1.9rem;  
     }
 
 }
