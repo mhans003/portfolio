@@ -1,8 +1,17 @@
 body {
-    background-color: rgba(230,230,233,1.0);
+    /*background-color: rgba(230,230,233,1.0);*/
+    background-color: rgba(223,247,255,1.0); 
     /*font-family: 'Expletus Sans', cursive;*/
     font-family: 'Open Sans', sans-serif;
+    color: rgba(30,34,50,1.0); 
+}
 
+.bg-dark {
+    background-color: rgba(30,34,50,1.0) !important; 
+}
+
+h1 {
+    font-size: 3.2rem; 
 }
 
 /*Custom Navbar Styles*/
@@ -13,8 +22,8 @@ body {
 
 .navbar-brand {
     font-size: 1.9rem; 
-    text-shadow: 3px -1px 2px rgba(145,145,145,1.0),
-                 5px -2px 5px rgba(90,90,100);
+    text-shadow: 3px -1px 2px rgba(145,175,195,1.0),
+                 5px -2px 5px rgba(120,145,160,1.0);
 }
 
 .nav-item {
@@ -25,10 +34,12 @@ body {
 
 .nav-link {
     font-size: 1.2rem; 
+    color: rgba(145,175,195,1.0) !important; 
 }
 
 .active {
-    background-color: rgba(230,230,233,1.0);
+    /*background-color: rgba(230,230,233,1.0);*/
+    background-color: rgba(223,247,255,1.0); 
 }
 
 .active .nav-link {
@@ -88,7 +99,9 @@ hr {
 }
 
 .card-title a {
-    color: rgba(100,100,200,1.0); 
+    /*color: rgba(100,100,200,1.0);*/
+    color: rgba(30,34,50,1.0); 
+    
 }
 
 .portfolio-item {
@@ -107,12 +120,19 @@ hr {
     padding: 15px; 
     margin-top: 30px; 
     width: 100%; 
-    background-color: rgba(155,155,180,1.0);
+    /*background-color: rgba(155,155,180,1.0);*/
+    background-color: rgba(75, 207, 250,1.0); 
+    color: rgba(30,34,50,1.0); 
 }
 
 .page-button:hover {
     background-color: #fff; 
-    color: rgba(52,58,64,1.0); 
+    /*color: rgba(52,58,64,1.0);*/
+    color: rgba(75, 207, 250,1.0);  
+}
+
+.page-button:focus {
+    background-color: rgba(30,34,50,1.0) !important; 
 }
 
 /*Footer Styles*/
@@ -128,5 +148,6 @@ footer {
 a i {
     font-size: 1.5rem; 
     margin-right: 10px; 
-    color: rgba(180,180,210,1.0);
+    /*color: rgba(180,180,210,1.0);*/
+    color: rgba(223,247,255,1.0); 
 }
