@@ -222,3 +222,21 @@ a i {
     }
 
 }
+
+/*Ignore .hr-light on Galaxy Fold*/
+@media screen and (max-width: 330px) {
+
+    .hr-light {
+        display: none; 
+    }
+
+}
+
+/*Get rid of name on extremely small*/
+@media screen and (max-width: 270px) {
+
+    .navbar-brand {
+        display: none; 
+    }
+
+}
