@@ -24,6 +24,10 @@ h2 {
     text-align: center; 
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /*Custom Navbar Styles*/
 
 .navbar {
@@ -36,15 +40,25 @@ h2 {
                  5px -2px 5px rgba(120,145,160,1.0);
 }
 
+.navbar-brand:hover {
+    color: rgba(145, 230, 250,1.0) !important;
+}
+
 .nav-item {
     padding-top: 10px; 
     height: 82px; 
     text-align: center; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
 }
 
 .nav-link {
     font-size: 1.2rem; 
     color: rgba(145,175,195,1.0) !important; 
+}
+
+.nav-link:hover {
+    color: #fff !important; 
 }
 
 .active {
@@ -146,10 +160,10 @@ hr {
     color: rgba(30,34,50,1.0); 
 }
 
-.page-button:hover {
-    background-color: #fff; 
+.page-button:hover, .page-button:active {
+    background-color: rgba(30,34,50,1.0) !important;  
     /*color: rgba(52,58,64,1.0);*/
-    color: rgba(75, 207, 250,1.0);  
+    color: #fff;  
 }
 
 .page-button:focus {
@@ -173,6 +187,12 @@ a i {
     color: rgba(223,247,255,1.0); 
 }
 
+
+
+a i:hover, a i:hover {
+    color: #fff; 
+}
+
 /*Adjust and center navbar items on mobile*/
 
 @media screen and (max-width: 767px) {
@@ -184,6 +204,10 @@ a i {
 
     .current-tab {
         top: 10px; 
+    }
+
+    .nav-item {
+        border-radius: 0px; 
     }
 
 }
