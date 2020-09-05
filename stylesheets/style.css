@@ -1,14 +1,6 @@
 body {
-    /*background-color: rgba(230,230,233,1.0);*/
-    /*background-color: rgba(223,247,255,1.0);*/
     background-color: rgba(240,254,255,1.0); 
-    /*font-family: 'Expletus Sans', cursive;*/
-    /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Baloo Da 2', cursive;
-    /*font-family: 'Iceland', cursive;*/
-    /*font-family: 'Red Rose', cursive;*/
-
-
     color: rgba(30,34,50,1.0); 
 }
 
@@ -62,8 +54,6 @@ a:hover {
 }
 
 .active {
-    /*background-color: rgba(230,230,233,1.0);*/
-    /*background-color: rgba(223,247,255,1.0);*/
     background-color: rgba(240,254,255,1.0); 
 }
 
@@ -85,7 +75,6 @@ a:hover {
     background-color: #fff; 
     margin-top: 5%; 
     margin-bottom: 10%;
-    /*border: 1px solid rgba(75,207,250,0.7);*/
     border: 1px solid rgba(160,190,200,0.8);
 }
 
@@ -133,8 +122,6 @@ hr {
 }
 
 .card-title a {
-    /*color: rgba(100,100,200,1.0);*/
-    /*color: rgba(30,34,50,1.0); */
     color: rgba(75, 207, 250,1.0); 
     
 }
@@ -155,14 +142,12 @@ hr {
     padding: 15px; 
     margin-top: 30px; 
     width: 100%; 
-    /*background-color: rgba(155,155,180,1.0);*/
     background-color: rgba(75, 207, 250,1.0); 
     color: rgba(30,34,50,1.0); 
 }
 
 .page-button:hover, .page-button:active {
     background-color: rgba(30,34,50,1.0) !important;  
-    /*color: rgba(52,58,64,1.0);*/
     color: #fff;  
 }
 
@@ -183,7 +168,6 @@ footer {
 a i {
     font-size: 1.5rem; 
     margin-right: 10px; 
-    /*color: rgba(180,180,210,1.0);*/
     color: rgba(223,247,255,1.0); 
 }
 
