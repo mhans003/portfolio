@@ -247,10 +247,14 @@ a i:hover, a i:hover {
 }
 
 /*Ignore .hr-light on Galaxy Fold*/
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
 
     .hr-light {
         display: none; 
+    }
+
+    #email-output {
+        font-size: 0.9rem;
     }
 
 }
