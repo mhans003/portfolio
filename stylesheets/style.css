@@ -28,8 +28,8 @@ a:hover {
 
 .navbar-brand {
     font-size: 2.9rem; 
-    text-shadow: 3px -1px 2px rgba(145,175,195,1.0),
-                 5px -2px 5px rgba(120,145,160,1.0);
+    text-shadow: 2px -1px 2px rgba(145,175,195,1.0),
+                 3px -2px 3px rgba(120,145,160,1.0);
 }
 
 .navbar-brand:hover {
