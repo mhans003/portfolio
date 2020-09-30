@@ -169,6 +169,13 @@ hr {
     background-color: rgba(30,34,50,1.0) !important; 
 }
 
+/*Resume Styles*/
+
+#download-icon {
+    font-size: 2.0rem;
+    color: rgba(30,34,50,1.0); 
+}
+
 /*Footer Styles*/
 
 footer {
@@ -193,6 +200,14 @@ a i:hover, a i:hover {
 
 /*Adjust and center navbar items on mobile*/
 
+@media screen and (max-width: 991px) {
+
+    .nav-item {
+        border-radius: 0px; 
+    }
+
+}
+
 @media screen and (max-width: 767px) {
 
     .dropdown-text {
@@ -202,10 +217,6 @@ a i:hover, a i:hover {
 
     .current-tab {
         top: 10px; 
-    }
-
-    .nav-item {
-        border-radius: 0px; 
     }
 
 }
