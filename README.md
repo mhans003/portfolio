@@ -21,3 +21,7 @@ This mobile-first website provides Michael Hanson's bio, contact information, an
 * Font Awesome icons in footer that link to social media
 * Semantic HTML tags for organization and SEO enhancement 
 
+### License
+
+Licensed under the [MIT License](./LICENSE.txt).
+
