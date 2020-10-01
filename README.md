@@ -21,6 +21,13 @@ This mobile-first website provides Michael Hanson's bio, contact information, an
 * Font Awesome icons in footer that link to social media
 * Semantic HTML tags for organization and SEO enhancement 
 
+### Contact
+
+Michael Hanson
+* michaeledwardhanson@gmail.com
+* [GitHub](https://github.com/mhans003)
+* [LinkedIn](https://www.linkedin.com/in/michaeledwardhanson/)
+
 ### License
 
 Licensed under the [MIT License](./LICENSE.txt).
