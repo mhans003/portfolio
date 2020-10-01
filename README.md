@@ -1,19 +1,19 @@
 # Michael Hanson's Responsive Portfolio 
 
-### Deployed Application 
+## Deployed Application 
 
 [Responsive Portfolio - Micael Hanson](https://mhans003.github.io/portfolio/index.html)
 
 ![Homepage Screenshot](./assets/images/screenshot.jpg)
 ![Portfolio Screenshot](./assets/images/screenshot2.jpg)
 
-### Description
+## Description
 
 This is Michael Hanson's online responsive portfolio. 
 
 This mobile-first website provides Michael Hanson's bio, contact information, and portfolio of online work. 
 
-### Features
+## Features
 
 * Bootstrap 4 components including grid, navbar, cards, and modals 
 * Responsive to a wide variety of screen sizes using Bootstrap and supporting Media Queries
@@ -21,14 +21,14 @@ This mobile-first website provides Michael Hanson's bio, contact information, an
 * Font Awesome icons in footer that link to social media
 * Semantic HTML tags for organization and SEO enhancement 
 
-### Contact
+## Contact
 
 Michael Hanson
 * michaeledwardhanson@gmail.com
 * [GitHub](https://github.com/mhans003)
 * [LinkedIn](https://www.linkedin.com/in/michaeledwardhanson/)
 
-### License
+## License
 
 Licensed under the [MIT License](./LICENSE.txt).
 
