@@ -1,4 +1,5 @@
 # Michael Hanson's Responsive Portfolio 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Deployed Application 
 
