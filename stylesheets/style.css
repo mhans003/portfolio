@@ -1,6 +1,7 @@
 body {
     background-color: rgba(240,254,255,1.0); 
-    font-family: 'Baloo Da 2', cursive;
+    /*font-family: 'Baloo Da 2', cursive;*/
+    font-family: 'Quicksand', sans-serif;
     color: rgba(30,34,50,1.0); 
 }
 
@@ -222,7 +223,7 @@ a i:hover, a i:hover {
 }
 
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 499px) {
 
     .navbar-brand {
         margin-left: auto !important; 
@@ -241,7 +242,7 @@ a i:hover, a i:hover {
 }
 
 /*Keep navbar-brand (title) from overflowing smaller mobile screens*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
     .navbar-brand {
         font-size: 1.9rem;  
