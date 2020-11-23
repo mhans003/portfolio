@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(240,254,255,1.0); 
+    background-color: rgba(240,254,255,1.0);
     /*font-family: 'Baloo Da 2', cursive;*/
     font-family: 'Quicksand', sans-serif;
     color: rgba(30,34,50,1.0); 
@@ -116,6 +116,7 @@ hr {
 
 .card {
     border-radius: 10px; 
+    background-color: rgba(30,34,50,0.025);
 }
 
 .card-title, .card-text {
@@ -170,6 +171,10 @@ hr {
     background-color: rgba(30,34,50,1.0) !important; 
 }
 
+.contact-item {
+    font-size: 2.0rem;
+}
+
 /*Resume Styles*/
 
 #download-icon {
@@ -192,8 +197,6 @@ a i {
     margin-right: 10px; 
     color: rgba(223,247,255,1.0); 
 }
-
-
 
 a i:hover, a i:hover {
     color: #fff; 
@@ -221,7 +224,6 @@ a i:hover, a i:hover {
     }
 
 }
-
 
 @media screen and (max-width: 499px) {
 
