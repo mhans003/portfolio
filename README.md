@@ -3,7 +3,7 @@
 
 ## Deployed Application 
 
-[Responsive Portfolio - Micael Hanson](https://mhans003.github.io/portfolio/index.html)
+[Responsive Portfolio - Michael Hanson](https://mhans003.github.io/portfolio/index.html)
 
 ![Homepage Screenshot](./assets/images/screenshot.jpg)
 ![Portfolio Screenshot](./assets/images/screenshot2.jpg)
